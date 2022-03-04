@@ -1,6 +1,6 @@
 {
   "name": "package-debug",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "wanglizhe",
   "description": "npm包调试工具，监听目录变量，并将变动文件写入目标文件夹中。",
   "scripts": {
@@ -14,13 +14,10 @@
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
   },
-  "files": [
-    "lib",
-    "bin",
-    "package.json",
-    "README.md"
-  ],
-  "github": "https://github.com/LiZheWang/pkg-debug",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiZheWang/pkg-debug.git"
+  },
   "homepage": "https://lizhewang.github.io/pkg-debug/",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
