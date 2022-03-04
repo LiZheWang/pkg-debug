@@ -20,7 +20,7 @@ npm install package-debug -g
 
 ### 使用
 
-1.在根目录新建配置文件 pkg-debug-config-1.js。[查看配置项](usage)
+1.在根目录新建配置文件 pkg-debug-config.js。[查看配置项](usage)
 ```javascript
 module.exports = {
     // options
