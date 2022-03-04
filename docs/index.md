@@ -1,7 +1,7 @@
 ---
 hero:
-  title: pkg-debug
-  desc: pkg-debug是一个监听文件夹变动的工具，如果有变动，就将变动的文件，copy写入到指定的文件夹。
+  title: package-debug
+  desc: package-debug是一个监听文件夹变动的工具，如果有变动，就将变动的文件，copy写入到指定的文件夹。
   actions:
     - text: 开始使用
       link: /guide

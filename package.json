@@ -1,7 +1,8 @@
 {
-  "private": true,
-  "name": "pkg-debug",
+  "name": "package-debug",
   "version": "1.0.0",
+  "author": "wanglizhe",
+  "description": "npm包调试工具，监听目录变量，并将变动文件写入目标文件夹中。",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -13,10 +14,17 @@
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
   },
+  "files": [
+    "lib",
+    "bin",
+    "package.json"
+  ],
+  "github": "https://github.com/LiZheWang/pkg-debug",
+  "homepage": "https://lizhewang.github.io/pkg-debug/",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "bin": {
-    "pkg-debug": "bin/pkg-debug.js"
+    "package-debug": "bin/pkg-debug.js"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

@@ -1,4 +1,4 @@
-# pkg-debug
+# package-debug
 
 ## Getting Started
 
