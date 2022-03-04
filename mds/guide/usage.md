@@ -127,3 +127,27 @@ on: {
 
   </tbody>
 </table>
+
+### pkg-debug-config.js模板实例
+<pre>
+module.exports = {
+    sources: [
+        {
+            distDirName: 'commerce-miniprogram',
+            DistResolvePath: '',
+            localDir: 'lib'
+        }
+    ],
+    on: {
+      init: function (rootPath, rootDirName, pathPrefix) {
+      },
+      
+      writeSuccess: function (name, distFilePath) {
+      },
+
+      writeError: function (err, name, distFilePath) {
+      },
+    }
+}
+
+</pre>
