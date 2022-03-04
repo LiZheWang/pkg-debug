@@ -1,6 +1,8 @@
 {
   "name": "package-debug",
   "version": "1.0.0",
+  "author": "wanglizhe <515372068@qq.com>",
+  "description": "package-debug是一个监听文件夹变动的工具，如果有变动，就将变动的文件，copy写入到指定的文件夹。",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -46,6 +48,7 @@
     "README.md",
     "package.json"
   ],
+  "license": "MIT",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^12.1.2",
