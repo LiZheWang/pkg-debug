@@ -135,6 +135,7 @@ module.exports = {
         {
             distDirName: 'commerce-miniprogram',
             DistResolvePath: '',
+            distPathCover: 'true', // 如果node_modules目录下包不存在  就直接创建一个目录
             localDir: 'lib'
         }
     ],
