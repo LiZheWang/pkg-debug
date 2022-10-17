@@ -1,7 +1,7 @@
 ---
 hero:
   title: package-debug
-  desc: package-debug是一个监听文件夹变动的工具，如果有变动，就将变动的文件，copy写入到指定的文件夹。
+  desc: package-debug是一个开发工具库，包含NPM包本地调试，图片压缩，npm tag发布，基于swagger文档生成ts映射等。
   actions:
     - text: 开始使用
       link: /guide
@@ -16,4 +16,3 @@ features:
     title: 效率
     desc: 只会覆盖改动的文件，效率高
 ---
-
